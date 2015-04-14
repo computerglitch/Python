@@ -67,5 +67,4 @@ print "\n\033[93m\033[4mBucket Name\033[0m                \033[93m\033[4mBucket 
 for row in data:
     print "".join(word.ljust(col_width) for word in row)
 print "\n"
-
 print "\033[92mTotal S3 Cost (per month): $\033[1m%s \n\033[0m" %(cost)
